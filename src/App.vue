@@ -3,7 +3,7 @@
 </script>
 
 <template>
-	<div class="admin-panel-app bg-[#F4F7FE] min-h-screen grid grid-cols-[max-content_1fr] ">
+	<div class="admin-panel-app bg-ghostWhite min-h-screen grid grid-cols-[max-content_1fr] ">
 		<SideBar />
 	</div>
 </template>

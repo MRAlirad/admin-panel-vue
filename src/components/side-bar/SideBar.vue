@@ -16,7 +16,7 @@
 				v-for="link in sidebarLinks"
 				:key="link"
 				:href="link.to"
-				class="side-bar-link w-full flex items-center gap-4 pr-9 text-[#A3AED0] hover:text-[#6E80B7] wow"
+				class="side-bar-link text-base font-bold w-full flex items-center gap-4 pr-9 text-[#A3AED0] hover:text-[#6E80B7]"
 			>
 				<i class="material-icons material-icons-round"> {{ link.icon }} </i>
 				{{ link.text }}
@@ -26,12 +26,7 @@
 </template>
 
 <script>
-	import SideBarLink from './SideBarLink.vue';
-
 	export default {
-		components: {
-			SideBarLink,
-		},
 		data() {
 			return {
 				sidebarLinks: [
@@ -73,7 +68,7 @@
 
 <style scoped>
     .wow {
-        color: theme('colors.black');
+        color: theme('colors.blue');
     }
 
     /*  */
