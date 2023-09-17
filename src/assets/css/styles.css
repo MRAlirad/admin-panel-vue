@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.img-box {
+		@apply flex items-center justify-center;
+	}
+	img {
+		@apply w-full h-full object-contain;
+	}
+}

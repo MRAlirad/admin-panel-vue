@@ -6,6 +6,13 @@ export default {
 	],
 	theme: {
 		extend: {},
+		exports: {
+			theme: {
+				colors: {
+					
+				}
+			}
+		}
 	},
 	plugins: [],
 }
