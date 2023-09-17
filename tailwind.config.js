@@ -5,15 +5,23 @@ export default {
 		"./src/**/*.{vue,js,ts,jsx,tsx}",
 	],
 	theme: {
-		extend: {},
-		exports: {
-			theme: {
-				colors: {
-					
-				}
+		extend: {
+			colors: {
+				ghostWhite : '#F4F7FE',
+				blue       : '#4318FF',
 			}
-		}
+		},
 	},
 	plugins: [],
-}
+};
+
+// module.exports = {
+// 	theme: {
+// 		colors: {
+// 			transparent: 'transparent',
+// 			current: 'currentColor',
+// 			black : '#555'
+// 		},
+// 	},
+// }
 
