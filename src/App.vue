@@ -5,6 +5,7 @@
 <template>
 	<div class="admin-panel-app bg-ghostWhite min-h-screen grid grid-cols-[max-content_1fr] ">
 		<SideBar />
+		<router-view></router-view>
 	</div>
 </template>
 
