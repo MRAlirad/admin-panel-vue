@@ -9,19 +9,11 @@ export default {
 			colors: {
 				ghostWhite : '#F4F7FE',
 				blue       : '#4318FF',
+				delftBlue  : '#2B3674',
+				powderBlue : '#A3AED0',
 			}
 		},
 	},
 	plugins: [],
 };
-
-// module.exports = {
-// 	theme: {
-// 		colors: {
-// 			transparent: 'transparent',
-// 			current: 'currentColor',
-// 			black : '#555'
-// 		},
-// 	},
-// }
 

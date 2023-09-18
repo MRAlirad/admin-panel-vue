@@ -1,8 +1,3 @@
-<script setup>
-	import SideBar from './components/SideBar.vue';
-	import Header from './components/Header.vue';
-</script>
-
 <template>
 	<div class="admin-panel-app bg-ghostWhite min-h-screen grid grid-cols-[15%_1fr] grid-rows-[max-content_1fr]">
 		<SideBar />
@@ -10,6 +5,18 @@
 		<router-view></router-view>
 	</div>
 </template>
+
+<script>
+	import SideBar from './components/SideBar.vue';
+	import Header from './components/Header.vue';
+
+	export default {
+		components : {
+			SideBar,
+			Header,
+		}
+	}
+</script>
 
 <style>
 	body {

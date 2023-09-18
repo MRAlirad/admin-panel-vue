@@ -16,7 +16,7 @@
 				v-for="link in sidebarLinks"
 				:key="link"
 				:to="link.to"
-				class="side-bar-link relative flex items-center gap-4 w-full h-9 text-base font-bold text-[#A3AED0] pr-[12%] hover:text-[#6E80B7]"
+				class="side-bar-link relative flex items-center gap-4 w-full h-9 text-base font-bold text-powderBlue pr-[12%] hover:text-[#6E80B7]"
 			>
 				<i class="material-icons material-icons-round"> {{ link.icon }} </i>
 				{{ link.text }}

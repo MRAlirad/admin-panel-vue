@@ -4,9 +4,21 @@
 
 @layer components {
 	.img-box {
-		@apply flex items-center justify-center;
+		@apply flex items-center justify-center overflow-hidden;
 	}
 	img {
 		@apply w-full h-full object-contain;
+	}
+
+	input[type=text] {
+		@apply border-none outline-none w-full bg-transparent;
+	}
+
+	.btn {
+		@apply flex items-center justify-center border-none outline-none;
+	}
+
+	.btn.icon {
+		@apply p-1;
 	}
 }
