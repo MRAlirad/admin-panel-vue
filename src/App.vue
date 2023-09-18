@@ -3,14 +3,13 @@
 </script>
 
 <template>
-	<div class="admin-panel-app bg-ghostWhite min-h-screen grid grid-cols-[max-content_1fr] ">
+	<div class="admin-panel-app bg-ghostWhite min-h-screen grid grid-cols-[15%_1fr] ">
 		<SideBar />
 		<router-view></router-view>
 	</div>
 </template>
 
 <style>
-
 	body {
 		font-family : 'vazir FD';
 	}
