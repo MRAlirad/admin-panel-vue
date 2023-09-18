@@ -1,9 +1,9 @@
 <script setup>
-	import logo from '../../assets/pics/Logo.png';
+	import logo from '../assets/pics/Logo.png';
 </script>
 
 <template>
-	<div class="side-bar grid grid-rows-[max-content_1fr] bg-white w-full h-full">
+	<div class="side-bar grid grid-rows-[max-content_1fr] row-[1/3] bg-white w-full h-full">
 		<div class="img-box h-[130px] w-full border-b border-ghostWhite">
 			<img
 				:src="logo"
@@ -74,6 +74,4 @@
 	.router-link-active .left-line {
 		background: theme('colors.blue');
 	}
-
-	/*  */
 </style>
