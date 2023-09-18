@@ -21,4 +21,8 @@
 	.btn.icon {
 		@apply p-1;
 	}
+
+	.card {
+		@apply bg-white rounded-[20px] shadow-[0_18px_40px_0_#7090B01F]
+	}
 }

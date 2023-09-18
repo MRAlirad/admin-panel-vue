@@ -1,7 +1,3 @@
-<script setup>
-	import profile from '../assets/pics/Profile.png';
-</script>
-
 <template>
 	<div class="flex items-center justify-between w-full h-[160px] pr-4 pl-12">
 		<div class="title-navigation-box">
@@ -37,7 +33,7 @@
 			</div>
 			<div class="img-box w-10 h-10 rounded-full">
 				<img
-					:src="profile"
+					src="../assets/pics/Profile.png"
 					alt="profile"
 				/>
 			</div>

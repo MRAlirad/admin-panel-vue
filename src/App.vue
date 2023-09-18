@@ -2,7 +2,9 @@
 	<div class="admin-panel-app bg-ghostWhite min-h-screen grid grid-cols-[15%_1fr] grid-rows-[max-content_1fr]">
 		<SideBar />
 		<Header />
-		<router-view></router-view>
+		<main class="p-5">
+			<router-view></router-view>
+		</main>
 	</div>
 </template>
 
