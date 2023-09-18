@@ -3,8 +3,8 @@
 </script>
 
 <template>
-	<div class="side-bar grid grid-rows-[max-content_1fr] bg-white w-[290px] h-full">
-		<div class="img-box h-[130px] w-full border-b border-[#F4F7FE]">
+	<div class="side-bar grid grid-rows-[max-content_1fr] bg-white w-full h-full">
+		<div class="img-box h-[130px] w-full border-b border-ghostWhite">
 			<img
 				:src="logo"
 				alt="logo"
@@ -16,10 +16,11 @@
 				v-for="link in sidebarLinks"
 				:key="link"
 				:to="link.to"
-				class="side-bar-link text-base font-bold w-full flex items-center gap-4 pr-9 text-[#A3AED0] hover:text-[#6E80B7]"
+				class="side-bar-link relative flex items-center gap-4 w-full h-9 text-base font-bold text-[#A3AED0] pr-[12%] hover:text-[#6E80B7]"
 			>
 				<i class="material-icons material-icons-round"> {{ link.icon }} </i>
 				{{ link.text }}
+				<span class="left-line absolute left-0 top-0 w-1 h-full bg-transparent rounded-full"></span>
 			</router-link>
 		</div>
 	</div>
@@ -67,10 +68,12 @@
 </script>
 
 <style scoped>
-    .router-link-active {
-        color: theme('colors.blue');
-    }
+	.router-link-active {
+		color: theme('colors.blue');
+	}
+	.router-link-active .left-line {
+		background: theme('colors.blue');
+	}
 
-    /*  */
-
+	/*  */
 </style>
