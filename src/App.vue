@@ -13,16 +13,16 @@
 	import Header from './components/Header.vue';
 
 	export default {
-		components : {
+		components: {
 			SideBar,
 			Header,
-		}
-	}
+		},
+	};
 </script>
 
 <style>
 	body {
-		font-family : 'vazir FD';
+		font-family: 'vazir FD';
 	}
 
 	@font-face {
