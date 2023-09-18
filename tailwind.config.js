@@ -7,10 +7,10 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				ghostWhite : '#F4F7FE',
-				blue       : '#4318FF',
-				delftBlue  : '#2B3674',
-				powderBlue : '#A3AED0',
+				ghostWhite: '#F4F7FE',
+				blue: '#4318FF',
+				delftBlue: '#2B3674',
+				powderBlue: '#A3AED0',
 			}
 		},
 	},

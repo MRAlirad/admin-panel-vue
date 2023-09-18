@@ -9,7 +9,7 @@
 </script>
 
 <template>
-    <i class="material-icons material-icons-round"> {{ icon }}</i>
+	<i class="material-icons material-icons-round"> {{ icon }}</i>
 </template>
 
 <style scoped>

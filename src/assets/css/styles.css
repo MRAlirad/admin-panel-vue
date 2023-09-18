@@ -10,7 +10,7 @@
 		@apply w-full h-full object-contain;
 	}
 
-	input[type=text] {
+	input[type='text'] {
 		@apply border-none outline-none w-full bg-transparent;
 	}
 
@@ -23,6 +23,6 @@
 	}
 
 	.card {
-		@apply bg-white rounded-[20px] shadow-[0_18px_40px_0_#7090B01F]
+		@apply bg-white rounded-[20px] shadow-[0_18px_40px_0_#7090B01F];
 	}
 }
