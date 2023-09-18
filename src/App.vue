@@ -9,6 +9,11 @@
 </template>
 
 <style>
+
+	body {
+		font-family : 'vazir FD';
+	}
+
 	@font-face {
 		font-family: 'Material Icons';
 		font-style: normal;
