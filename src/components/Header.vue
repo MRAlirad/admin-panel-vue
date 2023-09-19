@@ -25,7 +25,7 @@
 					<i class="material-icons material-icons-outlined"> notifications </i>
 				</button>
 				<button class="btn icon text-powderBlue">
-					<i class="material-icons material-icons-outlined"> nightlight_round </i>
+					<i class="material-icons material-icons-round"> nightlight_round </i>
 				</button>
 				<button class="btn icon text-powderBlue">
 					<i class="material-icons material-icons-outlined"> info </i>
