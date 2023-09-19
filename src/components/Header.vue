@@ -22,7 +22,7 @@
 			</div>
 			<div class="actions-box flex items-center gap-2">
 				<button class="btn icon text-powderBlue">
-					<i class="material-icons material-icons-outlined md-48"> notifications </i>
+					<i class="material-icons material-icons-outlined"> notifications </i>
 				</button>
 				<button class="btn icon text-powderBlue">
 					<i class="material-icons material-icons-outlined"> nightlight_round </i>
